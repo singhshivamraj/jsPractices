@@ -1,4 +1,4 @@
-/*question(6) Print all numbers from 1 to 100. 
+/*question(1) Print all numbers from 1 to 100. 
 
 for(let i = 0; i<= 100; i++ ){
   console.log(i);
@@ -17,6 +17,8 @@ for(let i = 0; i<= 100; i++){
 }*/
 
 
+
+
 /*  question(3)Print odd numbers from 1 to 100. 
 
 
@@ -29,6 +31,31 @@ for(let i = 0; i<= 100; i++){
 
 
 
+/* question(4)Find the sum of first 50 natural numbers.
+let num = 0;
+ for (let i = 0; i<= 50; i++ ){
+num += i;
+
+}
+console.log(num);
+*/
+
+
+/*.question(5) Find the factorial of a number.
+const number = (n) =>{
+  if (n === 0 || n === 1) {
+    return 1;
+  }
+  let fact = 1;
+  for(let i = 2; i<= n ; i++){
+    fact *= i;
+  }
+  return fact;
+  
+}
+console.log(number(5));
+
+*/
 
 
 
@@ -45,3 +72,31 @@ if (number % 2 === 0) {
   console.log('number is not prime');
   
 }*/
+
+
+
+/* question(7) Print first 10 prime numbers. 
+
+for(let i = 0; i<= 10; i++){
+  if(i % 2 === 0){
+    console.log(i);
+    
+  }
+}
+  */
+
+/* question(8) Reverse a given number.
+let reverseNumber = (n) =>{
+  let Reverse = 0;
+  while(n > 0){
+    let digit = n % 10;
+    Reverse = Reverse * 10 + digit;
+    n = Math.floor(n / 10)
+  }
+  return Reverse;
+}
+console.log(reverseNumber(12345));
+*/
+
+
+
