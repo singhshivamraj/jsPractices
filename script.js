@@ -85,6 +85,7 @@ for(let i = 0; i<= 10; i++){
 }
   */
 
+
 /* question(8) Reverse a given number.
 let reverseNumber = (n) =>{
   let Reverse = 0;
@@ -98,5 +99,24 @@ let reverseNumber = (n) =>{
 console.log(reverseNumber(12345));
 */
 
+
+
+//Check if a number is palindrome. 
+
+
+const palindrome = (num) =>{
+ let firstNum = num;
+ let secNum = 0;
+
+ while(num > 0){
+  let digit = num % 10;
+  secNum = secNum  * 10 + digit;
+  num = Math.floor(num / 10);
+
+ }
+ return firstNum === secNum;
+}
+
+console.log(palindrome(121));
 
 
