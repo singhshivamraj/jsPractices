@@ -101,7 +101,7 @@ console.log(reverseNumber(12345));
 
 
 
-//Check if a number is palindrome. 
+/* question(9) Check if a number is palindrome. 
 
 
 const palindrome = (num) =>{
@@ -118,5 +118,67 @@ const palindrome = (num) =>{
 }
 
 console.log(palindrome(121));
+*/
 
+
+
+/*  question(10) Find greatest of 3 numbers. 
+
+let a = 10
+let b = 12
+let c = 122
+
+if(a >= b && a >= c){
+  console.log(" a is grtest number", a);
+  
+}else if(b >= a && b >= c){
+console.log('b is grater than all', b);
+
+} else if(c >= a && c >= b){
+  console.log('c is grater than all', c);
+  
+}
+
+*/
+
+
+/*  question(11)  Find smallest of 3 numbers. 
+
+let number1 = parseInt(prompt("Enter Any Number"))
+let number2 = parseInt(prompt("Enter Any Number"))
+let number3 = parseInt(prompt("Enter Any Number"))
+
+if (number1 < number2 &&  number1 < number3 ) {
+  console.log('A Number is smallest', number1);
+  
+}else if(number2 < number1 && number2 < 3){
+  console.log(' B number is smallest ', number2);
+  
+}else if(number3 < number1 && number3 < number1){
+  console.log('C is smallest number', number3);
+  
+}
+*/
+
+
+
+/* question(12) Swap two numbers without using third variable. 
+let a = 5
+let b = 32
+
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+
+console.log('a', a, 'b', b);
+*/
+
+/* question(13)  Print multiplication table of a number. 
+let num = 50;
+
+for (let i = 1 ; i <= 10; i++) {
+    console.log(`${num} x ${i}  =  ${num * i}`);
+    
+}
+    */
 
