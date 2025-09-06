@@ -203,3 +203,40 @@ console.log(sumNumber(1234));
 
 */
 
+
+/*question(15)  Find product of digits of a number. 
+
+
+const product = (num) =>{
+  let product = 1;
+  while(num >  0){
+    let digit = num % 10;
+    product *= digit;
+    num = Math.floor(num / 10)
+  }
+return product
+
+}
+
+console.log(product(12343));
+*/
+
+
+/* question(16) Count number of digits in a number
+
+const CountNUmber = (num) =>{
+  let count = 0;
+  while(num > 0){
+    num = Math.floor(num / 10)
+    count++;
+  }
+  return count
+}
+console.log(CountNUmber(12345));
+*/
+
+
+
+
+
+
