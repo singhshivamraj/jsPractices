@@ -184,59 +184,80 @@ for (let i = 1 ; i <= 10; i++) {
 
 
 
-/* question(14) Find sum of digits of a number.
+/*  question(14) Find sum of digits of a number.
 
-
-const sumNumber = (num) =>{
+const  SumNumber = (num) =>{
 let sum = 0;
-
 while(num > 0){
   let digit = num % 10;
-  // sum = sum + digit ;
-  sum += digit;
-  num = Math.floor(num /10)
+  sum += digit
+  num = Math.floor(num / 10)
 }
-return sum
+return sum;
 }
-
-console.log(sumNumber(1234));
-
+console.log(SumNumber(2345))
 */
 
+/* Find product of digits of a number.
 
-/*question(15)  Find product of digits of a number. 
-
-
-const product = (num) =>{
-  let product = 1;
-  while(num >  0){
-    let digit = num % 10;
-    product *= digit;
-    num = Math.floor(num / 10)
-  }
+const productNumber = (num) =>{
+let product = 1;
+while(num > 0){
+  let digit = num % 10;
+  product *= digit
+  num = Math.floor(num / 10)
+}
 return product
-
 }
-
-console.log(product(12343));
+console.log(productNumber(789))
 */
 
 
-/* question(16) Count number of digits in a number
 
-const CountNUmber = (num) =>{
-  let count = 0;
-  while(num > 0){
-    num = Math.floor(num / 10)
-    count++;
+/* Count number of digits in a number. 
+
+const numberDigit = (num) =>{
+let count = 0;
+while(num > 0){
+// let digit = num % 10;
+ num = Math.floor(num / 10)
+ count++
+}
+return count
+}
+
+console.log(numberDigit(123456));
+*/
+
+
+/*question(17)Find LCM of two numbers. 
+const gcd = (a, b) =>{
+  while(b !== 0){
+    let temp = b;
+    b = a % b;
+    a = temp
   }
-  return count
+  return a
 }
-console.log(CountNUmber(12345));
+function lcm(a, b){
+  return (a * b) / gcd(a, b)
+}
+
+console.log(lcm(12, 13));
+console.log(lcm(14, 45));
 */
 
 
+/* question(18) Find GCD of two numbers. 
 
-
-
+function gcd(a, b){
+  while(b !== 0){
+let temp = b;
+b = a % b;
+a = temp
+  }
+  return a
+}
+console.log(gcd(12, 18));
+*/
 
