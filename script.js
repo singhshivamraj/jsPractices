@@ -261,3 +261,54 @@ a = temp
 console.log(gcd(12, 18));
 */
 
+/* question(23)  Check if a number is Armstrong.
+
+function isArmstrong(num){
+let sum = 0;
+let temp = num;
+let digits = num.toString().length;
+
+while(temp > 0){
+  let digit = temp % 10;
+  sum += Math.pow(digit, digits);
+  temp = Math.floor(temp / 10);
+}
+
+return sum === num
+}
+
+let number = 154;
+
+if(isArmstrong(number)){
+  console.log(number + " is an armstrong number");
+
+  
+}else{
+  console.log(number + " is not an armstrong number");
+  
+}
+*/
+
+/* question(29)  Convert decimal to binary.
+
+ const decimalBinary = (num)=>{
+let binary = "";
+if(num === 0){
+  return 0;
+}
+while (num > 0){
+  let remainder = num % 2;
+  binary = remainder + binary;
+  num = Math.floor(num / 2);
+}
+return binary;
+ }
+
+ let number = 10;
+ console.log("Decimal", number);
+ console.log("Binary", decimalBinary(number));
+ 
+*/
+
+
+
