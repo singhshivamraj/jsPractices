@@ -311,4 +311,48 @@ return binary;
 */
 
 
+/* question(35) Generate random number between 1 and 100
 
+let number = Math.floor(Math.random()  ) ;
+console.log(number);
+
+console.log(Math.floor(Math.random() * 100 ) + 1) ;
+
+
+*/
+ /*question(38) Find whether a year is leap year. 
+
+const leapyear = (year) =>{
+  if ((year % 4 === 0 && year !== 100) || (year % 400 === 0)) {
+    console.log(year + " yes this is leap year");
+    
+  }else{
+    console.log(year + " Not leap year");
+    
+  }
+}
+leapyear(2000)
+leapyear(1999)
+leapyear(2024)
+leapyear(2030)
+
+*/
+
+
+
+                   //  STRING START 
+
+
+/* Reverse a string without built-in functions.
+           
+//  function reverseNumber(str){
+// let Reversed = "";
+// for(let i = str.length - 1; i >= 0; i--){
+//   Reversed = Reversed + str[i];
+// }
+// return Reversed
+//  }
+//  let result = reverseNumber("hellow");
+//   console.log(result);
+     */
+    
