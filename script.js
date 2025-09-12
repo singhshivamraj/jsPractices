@@ -356,3 +356,17 @@ leapyear(2030)
 //   console.log(result);
      */
     
+
+/* Find length of a string without .length. 
+
+function strLength(str){
+  let count = 0;
+  while(str[count] !== undefined){
+count++;
+  }
+  return  count
+}
+
+let result = strLength("hello");
+console.log(result);
+*/
