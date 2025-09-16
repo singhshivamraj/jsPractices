@@ -400,8 +400,37 @@ dtabse("shivam singh",
 */
 
 
+/* Count words in a string. 
 
+const countnumber = (str) =>{
+str = str.trim();
+if(str === "") return 0;
+const words = str.split(/\s+/);
+return words.length;
 
+}
 
+const inputstring = ' i am shivam singh i am a computer science enginnering student';
+
+const numberinput = countnumber(inputstring);
+console.log("Total count ", numberinput);
+*/
+
+/* Count spaces in a string. 
+const countspace = (str) =>{
+let spaceCount = 0;
+for(let i = 0; i< str.length; i++){
+  if (str[i] === '') {
+    spaceCount++
+  }
+}
+return spaceCount
+}
+
+const inputstring = 'count the space in this string';
+
+const totalspace = countspace(inputstring)
+console.log('total space', totalspace);
+*/
 
 
