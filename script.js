@@ -370,3 +370,31 @@ count++;
 let result = strLength("hello");
 console.log(result);
 */
+
+
+/* 1. Function definition
+function dtabse(data, success, failure) {
+    let speed = Math.floor(Math.random() * 10) + 1;  // random number 1 se 10 ke beech
+    console.log("Trying to save data:", data);        // yahan data ko print kar rahe hain
+    if(speed > 4) {
+        success(data);  // agar speed 4 se bada hai to success function ko call karo, aur data pass karo
+    } else {
+        failure(data);  // warna failure function ko call karo, aur data pass karo
+    }
+}
+
+// 2. Function call
+dtabse("shivam singh",
+
+    // 3. Success function
+    function(data) {
+        console.log("Data saved successfully:", data);
+    },
+
+    // 4. Failure function
+    function(data) {
+        console.log("Data not saved:", data);
+    }
+);
+
+*/
